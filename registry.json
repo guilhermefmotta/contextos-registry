@@ -5,16 +5,16 @@
       "id": "mcp-docker",
       "name": "Docker",
       "pluginType": "mcp",
-      "description": "Manage Docker containers, images, volumes, and networks via Docker Desktop API.",
-      "author": "Docker",
-      "official": true,
+      "description": "Manage Docker containers, images, volumes, and networks. List containers, run commands, inspect logs, manage images and volumes.",
+      "author": "hypnosis",
+      "official": false,
       "icon": "🐳",
       "tags": ["docker", "containers", "devops", "infra"],
       "stars": 412,
       "install": {
         "installType": "npx",
         "command": "npx",
-        "args": ["-y", "@docker/mcp-server"],
+        "args": ["-y", "@hypnosis/docker-mcp-server"],
         "requiredEnv": []
       }
     }
